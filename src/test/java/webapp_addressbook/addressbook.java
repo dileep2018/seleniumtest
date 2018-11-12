@@ -17,9 +17,8 @@ public class addressbook {
 	
 	@BeforeClass
 	public void launch() {
-		System.setProperty("webdriver.chrome.driver","chromedriver");
-		driver = new ChromeDriver();
-		driver.get("http://192.168.56.101:8082/addressbook/");
+		System.setProperty("webdriver.chrome.driver","/usr/local/bin/chromedriver");
+		driver = new ChromeDriver();	
 	}
 	
   @Test
